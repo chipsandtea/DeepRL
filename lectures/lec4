@@ -1,0 +1,13 @@
+Policy Optimization
+	- If we have a stochastic policy, we can smooth the optimization problem.
+	- Often policy can be simpler than Q or V
+		- Once you have V, you still need to know what action to take as V doesn't prescribe actions.
+	- Think of policy as a function taking a state representation to probabilities of taking each action? What are the targets then? 
+
+Likelihood Ratio Policy Gradient
+	Intuition
+		- Update policy by looking at a sampling of rollouts and increase probability of paths with positive R
+			- Decrease paths w/ negative R
+
+
+
